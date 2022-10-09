@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* css reset */
+/* ///////////////////////////// */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global style */
+/* ///////////////////////// */
+body {
+    background-color: #fff;
+    font-family: 'Quattrocento Sans', Arial,  sans-serif;
+font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* helpers */
+/* //////////////////////////////// */
+.list-reset {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Layout */
+/* //////////////////////////////////// */
+.main-header .desktop {
+    display: none;
+}
+
+
+.main-header .mobile {
+text-align: center;
+}
+
+/* styling mobile nav */
+
+.topnav #myLinks {
+    display: block;
+}
+
+.topnav #myLinks a {
+    display: block;
+    margin: 0 auto;
+}
+
+/* pading  navigation menu link*/
+
+.topnav a {
+        color:#000;
+        font-size: 17px;
+        padding-top: 9px;
+        display: inline-block;
+      }
+
+      .topnav a.icon {
+       padding-top: 10px;
+        margin-top: 20px;
+        width: 36px;
+        height: 34px;
+        background-color: #ddd;
+        border-radius:6px;
+        border: transparent;
+        outline: none;
+      }
+
+      /*  */
