@@ -44,7 +44,7 @@ text-align: center;
 /* styling mobile nav */
 
 .topnav #myLinks {
-    display: block;
+    display: none;
 }
 
 .topnav #myLinks a {
@@ -62,7 +62,7 @@ text-align: center;
       }
 
       .topnav a.icon {
-       padding-top: 10px;
+       padding-top: 9px;
         margin-top: 20px;
         width: 36px;
         height: 34px;
@@ -72,4 +72,45 @@ text-align: center;
         outline: none;
       }
 
-      /*  */
+      /*  styling main title*/
+
+      .main-title {
+        text-align: center;
+        margin-top: 66px;
+      }
+      
+      .main-title .main-title__heading {
+        font-size: 44px;
+        color: #000;
+        font-family: Alegreya Sans, Arial, Helvetica, sans-serif;
+        font-weight: 500;
+      }
+
+      .main-title .main-title__owner {
+        color: #9c9c9c;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        margin-top: 20px;
+        margin-bottom: 75px;
+      }
+
+      /* main content */
+
+      .main-content {
+       margin: 0 10px;
+      }
+
+      .main-content .main-content__heading {
+       border-top: 1px solid #9c9c9c;
+      }
+
+      .line {
+        width: 40px;
+        border-top: 3px solid #9c9c9c;
+      }
+
+      .main-content {
+
+      }
+
